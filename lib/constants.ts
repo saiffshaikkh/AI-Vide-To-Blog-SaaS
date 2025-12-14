@@ -9,7 +9,7 @@ export const plansMap = [
     priceId:
       process.env.NODE_ENV === "development"
         ? "price_1SQJyMK0CXF7mINb3jtj14MN"
-        : "",
+        : "price_1SQJyMK0CXF7mINb3jtj14MN",
   },
   {
     id: "pro",
@@ -21,11 +21,11 @@ export const plansMap = [
     priceId:
       process.env.NODE_ENV === "development"
         ? "price_1SQJyMK0CXF7mINbs43y4Yqx"
-        : "",
+        : "price_1SQJyMK0CXF7mINbs43y4Yqx",
   },
 ];
 
 export const ORIGIN_URL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:3000"
-    : "https://talktotext.vercel.app";
+    : "https://talktotextai-liart.vercel.app/";
